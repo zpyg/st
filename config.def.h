@@ -198,8 +198,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-    { MODKEY,               XK_U,           kscrollup,      {.i =  1} }, // 向上滚动
-    { MODKEY,               XK_N,           kscrolldown,    {.i =  1} }, // 向下滚动
+    { MODKEY,               XK_u,           kscrollup,      {.i =  1} }, // 向上滚动
+    { MODKEY,               XK_n,           kscrolldown,    {.i =  1} }, // 向下滚动
 	{ MODKEY|ShiftMask,     XK_U,           kscrollup,      {.i = -1} }, // 向上翻页
 	{ MODKEY|ShiftMask,     XK_N,           kscrolldown,    {.i = -1} }, // 向下翻页
 };
