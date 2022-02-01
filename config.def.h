@@ -5,7 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "JetBrains Mono:size=13";
+/* Spare fonts */
+static char *font2[] = {
+    "LXGW WenKai:style=Bold",
+    "Symbols Nerd Font:style=1000-em:size=10"
+};
+
 static int borderpx = 2;
 
 /*
