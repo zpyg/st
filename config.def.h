@@ -9,7 +9,8 @@ static char *font = "JetBrains Mono:size=13";
 /* Spare fonts */
 static char *font2[] = {
     "LXGW WenKai:style=Bold",
-    "Symbols Nerd Font:style=1000-em:size=10"
+    "Symbols Nerd Font:size=10",
+    "JoyPixels:size=10"
 };
 
 static int borderpx = 2;
