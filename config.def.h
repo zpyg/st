@@ -186,7 +186,7 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY Mod1Mask
+#define MODKEY Mod4Mask
 #define TERMMOD (ControlMask|ShiftMask)
 
 static Shortcut shortcuts[] = {
@@ -203,8 +203,10 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
-	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
+    { MODKEY,               XK_Up,          kscrollup,      {.i =  1} }, // 向上滚动
+    { MODKEY,               XK_Down,        kscrolldown,    {.i =  1} }, // 向下滚动
+	{ MODKEY|ShiftMask,     XK_Up,          kscrollup,      {.i = -1} }, // 向上翻页
+	{ MODKEY|ShiftMask,     XK_Down,        kscrolldown,    {.i = -1} }, // 向下翻页
 };
 
 /*
