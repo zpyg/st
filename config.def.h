@@ -6,12 +6,6 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "JetBrains Mono:size=14";
-/* Spare fonts */
-static char *font2[] = {
-    "LXGW WenKai:style=Bold",
-    "Symbols Nerd Font",
-    "JoyPixels"
-};
 
 static int borderpx = 2;
 
